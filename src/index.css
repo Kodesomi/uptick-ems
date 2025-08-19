@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Full height for root elements */
+html, body, #root { 
+  height: 100%; 
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Professional font */
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Attractive blue gradient */
+  color: #f3f4f6; /* Light text for contrast */
+}
+
+/* Optional: smooth scrolling */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Optional: style links */
+a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: container padding */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1rem;
+}
