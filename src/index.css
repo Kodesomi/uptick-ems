@@ -7,8 +7,20 @@ html, body, #root {
   height: 100%; 
   margin: 0;
   font-family: 'Inter', sans-serif; /* Professional font */
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Attractive blue gradient */
-  color: #f3f4f6; /* Light text for contrast */
+
+  /* ===== CHOOSE YOUR BACKGROUND BELOW ===== */
+  
+  /* Option 1: Elegant Dark Gray */
+  /* background: linear-gradient(135deg, #1f2937, #4b5563); 
+  color: #f9fafb; */
+
+  /* Option 2: Modern Teal */
+  /* background: linear-gradient(135deg, #0f766e, #14b8a6); 
+  color: #f0fdfa; */
+
+  /* Option 3: Premium Purple */
+  background: linear-gradient(135deg, #4c1d95, #7c3aed); 
+  color: #f5f3ff; 
 }
 
 /* Optional: smooth scrolling */
@@ -32,4 +44,17 @@ a:hover {
   flex-direction: column;
   min-height: 100%;
   padding: 1rem;
+}
+
+
+/* 🔹 Header section styling */
+header {
+  background-color: #111827; /* Professional dark slate background */
+  color: #f9fafb; /* White text */
+  padding: 1rem;
+  border-radius: 0.5rem; /* Slightly rounded for modern look */
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3); /* Soft shadow for depth */
 }
